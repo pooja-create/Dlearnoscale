@@ -95,7 +95,7 @@ WSGI_APPLICATION = 'learnoskill.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'learnoskilldb',
+        'NAME': 'postgres',
         'USER':'postgres',
         'PASSWORD':'root',
         'HOST':'localhost',
